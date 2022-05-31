@@ -1,0 +1,14 @@
+footer {
+    background-color: grey;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    text-decoration: wavy;
+}
+a:visited {
+    color: greenyellow;
+}
