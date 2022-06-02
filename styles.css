@@ -1,5 +1,8 @@
+html{
+    background-color: peachpuff;
+}
 footer {
-    background-color: grey;
+    background-color: lightgoldenrodyellow;
 }
 a {
     color: aqua;
@@ -10,5 +13,9 @@ a:hover {
     text-decoration: wavy;
 }
 a:visited {
-    color: greenyellow;
+    color: rgb(173, 89, 89);
+}
+
+img {
+
 }
