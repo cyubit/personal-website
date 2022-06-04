@@ -1,5 +1,10 @@
 html{
     background-color: peachpuff;
+    
+}
+header {
+    background-color: beige;
+    text-align: center;
 }
 footer {
     background-color: lightgoldenrodyellow;
@@ -16,6 +21,6 @@ a:visited {
     color: rgb(173, 89, 89);
 }
 
-img {
-
+#picture {
+    align-items: center;
 }
