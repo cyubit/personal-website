@@ -2,25 +2,71 @@ html{
     background-color: peachpuff;
     
 }
+
 header {
-    background-color: beige;
+    background-color: lightgoldenrodyellow;
     text-align: center;
 }
+
 footer {
     background-color: lightgoldenrodyellow;
+    
 }
+
 a {
-    color: aqua;
-    text-decoration: none;
+    /* color: aqua; */
 }
+
 a:hover {
     color: pink;
-    text-decoration: wavy;
 }
+
 a:visited {
-    color: rgb(173, 89, 89);
+    color: inherit;
 }
 
 #picture {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* #buttons {
+    color: white;
+} */
+
+/* .fa-linkedin-square{
+
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+    width: auto;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color:#0A66C2;
+    color: white;
+} */
+
+.fa {
+    display: inline-block;
+    padding: 25px;
+    font-size: 30px;
+    width: auto;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* background-color:#0A66C2; */
+    color: white;
+}
+
+.fa-linkedin-square:hover {
+    background-color: #0359af;
+    color: white;
+}
+
+.fa-github-square:hover {
+    background-color: black;
+    color: white;
+}
+
+#buttons {
+    text-align: center;
 }
