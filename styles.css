@@ -1,72 +1,57 @@
-html{
-    background-color: peachpuff;
-    
+body{
+    background-color: darkgrey;
 }
 
 header {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
     text-align: center;
 }
 
 footer {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+footer h6 {
+    text-align: center;
+    vertical-align: top;
+}
+
+.cover-page{
+    display: flex;
+}
+
+.social-media-buttons {
     
 }
 
-a {
-    /* color: aqua; */
-}
-
-a:hover {
-    color: pink;
-}
-
-a:visited {
-    color: inherit;
-}
-
-#picture {
-    display: flex;
-    justify-content: center;
-}
-
-/* #buttons {
-    color: white;
-} */
-
-/* .fa-linkedin-square{
-
+.nav-bar h2 {
     display: inline-block;
-    padding: 25px;
-    font-size: 30px;
-    width: auto;
-    text-decoration: none;
-    margin: 5px 2px;
-    background-color:#0A66C2;
-    color: white;
-} */
-
-.fa {
-    display: inline-block;
-    padding: 25px;
-    font-size: 30px;
-    width: auto;
-    text-decoration: none;
-    margin: 5px 2px;
-    /* background-color:#0A66C2; */
-    color: white;
+    padding: 5px;
 }
 
-.fa-linkedin-square:hover {
-    background-color: #0359af;
-    color: white;
-}
+    .fa {
+        display: inline-block;
+        padding: 25px;
+        font-size: x-large;
+        width: auto;
+        text-decoration: none;
+        margin: 5px 2px;
+        /* background-color:#0A66C2; */
+        color: black;
+        border-radius: 10px;
+    }
 
-.fa-github-square:hover {
-    background-color: black;
-    color: white;
-}
+    .fa-linkedin-square:hover {
+        background-color: #0359af;
+        color: white;
+    }
 
-#buttons {
-    text-align: center;
-}
+    .fa-github-square:hover {
+        background-color: black;
+        color: white;
+    }
+
+
+
+
