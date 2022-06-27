@@ -2,17 +2,14 @@ body{
     background-color: darkgrey;
 }
 
-header {
-    background-color: lightgrey;
-    text-align: center;
-}
-
 footer {
-    background-color: lightgrey;
+    background-color: #555;
     padding: 20px;
+    margin-top: 150px;
 }
 
 footer h6 {
+    color: whitesmoke;
     text-align: center;
     vertical-align: top;
 }
@@ -21,37 +18,34 @@ footer h6 {
     display: flex;
 }
 
-.social-media-buttons {
-    
+.nav-bar {
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav-bar a {
+    display: block;
     font-size: 30px;
     text-decoration: none;
-    display: inline-block;
-    padding: 5px;
-    color: black;
-
+    padding: 15px;
+    color: whitesmoke;
 }
 
-    .fa {
-        display: inline-block;
-        padding: 25px;
-        font-size: x-large;
-        width: auto;
-        text-decoration: none;
-        margin: 5px 2px;
-        /* background-color:#0A66C2; */
-        color: black;
-        border-radius: 10px;
-    }
+.nav-bar a:hover {
+    background-color: #777;
+}
 
-    .fa-linkedin-square:hover {
-        background-color: #0359af;
-        color: white;
-    }
+a.fa-linkedin-square:hover {
+    background-color: #0359af;
+}
 
-    .fa-github-square:hover {
-        background-color: black;
-        color: white;
-    }
+a.fa-github-square:hover {
+    background-color: black;
+}
