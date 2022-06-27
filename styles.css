@@ -5,17 +5,12 @@ body{
 footer {
     background-color: #555;
     padding: 20px;
-    margin-top: 150px;
 }
 
 footer h6 {
     color: whitesmoke;
     text-align: center;
     vertical-align: top;
-}
-
-.cover-page{
-    display: flex;
 }
 
 .nav-bar {
@@ -48,4 +43,34 @@ a.fa-linkedin-square:hover {
 
 a.fa-github-square:hover {
     background-color: black;
+}
+
+.cover-page {
+    display: flex;
+}
+
+.picture {
+    margin: 15px 0;
+}
+
+.name-title {
+    font-size: 35px;
+    text-align: center;
+    margin: auto auto;
+}
+
+.arrow {
+    text-align: center;
+    margin: auto auto auto 0;
+}
+
+.arrow a {
+    font-size: 55px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 25px 15px 20px 200px;
+    border-radius: 12px;
+    background-color: #000;
+    /* box-shadow: 0 0 0 5px #fff; */
+    border: 5px solid #fff;
 }
