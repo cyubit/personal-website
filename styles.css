@@ -74,3 +74,8 @@ a.fa-github-square:hover {
     /* box-shadow: 0 0 0 5px #fff; */
     border: 5px solid #fff;
 }
+
+.arrow a:hover {
+    position: relative; 
+    top: -4px;
+}
